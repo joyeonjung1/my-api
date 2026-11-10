@@ -1,0 +1,8 @@
+# railway up 으로 올릴 때 제외할 것 (비밀값과 가상환경은 절대 업로드 금지)
+vjeju/
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
